@@ -44,8 +44,8 @@ body {
 
 /* Middle Section */
 .middle-content {
-  background-color: #E0E8FF;
-  opacity: 0.75;
+  background-color: #D5CEDC;
+  opacity: 0.3;
   border-radius: 13px;
   margin: 10%;
   display: flex;

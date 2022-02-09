@@ -1,0 +1,124 @@
+body {
+  background-color: #E0E8FF;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+/* Pattern */
+.pattern {
+  position: absolute;
+  top: 0;
+}
+
+/* Card Div */
+.Container {
+  background-color: #fff;
+  position: absolute;
+  border-radius: 16px;
+  height: 650px;
+  width: 406px;
+  margin: 10% 35%;
+}
+
+/* Top section */
+.image {
+  border-radius: 16px 16px 0 0;
+  height: 198px;
+  width: 406px;
+}
+
+.Content {
+  margin: 10%;
+  text-align: center;
+}
+
+.t1 {
+  color: #1C2C50;
+  font-weight: 800;
+}
+
+.description {
+  color: #1C2C50;
+  opacity: 0.56;
+  font-weight: 600;
+}
+
+/* Middle Section */
+.middle-content {
+  background-color: #E0E8FF;
+  opacity: 0.75;
+  border-radius: 13px;
+  margin: 10%;
+  display: flex;
+}
+
+.music-img {
+  float: left;
+  margin: 7% 10%;
+}
+
+.left {
+  flex: auto;
+}
+
+.title {
+  color: #1C2C50;
+  font-weight: 800;
+  padding-top: 8%;
+  margin: auto;
+}
+
+.price {
+  color: #9293A0;
+  font-weight: 700;
+  margin: auto;
+  width: 10px;
+}
+
+.right {
+  flex: auto;
+}
+
+.change {
+  color: #1E1FCD;
+  font-weight: 700;
+  text-align: right;
+  text-decoration: underline;
+  margin-top: 15%;
+  margin-right: 8%;
+}
+
+/* Bottom Section */
+.btn {
+  background-color: #382AE1;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  padding: 14px 90px;
+  margin: 0 11%;
+  border: none;
+  border-radius: 11px;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 14px 34px 0 rgba(30, 31, 205, 0.25);
+}
+
+.cancel {
+  margin: auto;
+  padding: 8% 37%;
+}
+
+/* Attribution Section  */
+
+.attribution {
+  position: relative;
+  top: 800px;
+  text-align: center;
+}
+
+.fm {
+  margin-bottom: 0;
+}
+
+.pr {
+  margin: 0 auto;
+}
